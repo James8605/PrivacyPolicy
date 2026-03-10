@@ -8,7 +8,7 @@
 
 ### Privacy Policy for Rhythm
 
-Rhythm is an interval training timer app developed by James Zhang. Your privacy is important to us. This policy explains how we handle your information.
+Rhythm is an interval training timer app. Your privacy is important to us. This policy explains how we handle your information.
 
 ### Information Collection and Use
 
