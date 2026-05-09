@@ -98,3 +98,31 @@ AI Piano is suitable for general audiences, including children, and does not col
 If you (or your child) choose to enable cloud sheet recognition, please note that requests to the Anthropic API are governed by Anthropic's terms; we recommend a parent or guardian configures and manages the API key.
 
 ---
+
+## Data retention and deletion
+
+All data managed by the app lives in the app's local container on your device. To remove all app data, uninstall AI Piano from your device. Removing the API key from **Settings -> Cloud Recognition** deletes it from the Keychain.
+
+---
+
+## Security
+
+- The Anthropic API key, when stored, is held in the iOS Keychain.
+- Network requests to score libraries and to the Anthropic API use HTTPS.
+- Audio processing and scoring run entirely on the device.
+
+No system can be guaranteed fully secure, but we follow standard iOS practices for credential storage and network transport.
+
+---
+
+## Changes to this policy
+
+If we change how the app handles data, we will update this policy and revise the "Last updated" date above. Material changes will also be reflected in the App Store release notes.
+
+---
+
+## Contact
+
+If you have questions about this policy or the app's privacy practices, please contact:
+
+**Email:** zhangyang8605@gmail.com
