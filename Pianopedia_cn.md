@@ -14,7 +14,7 @@
 - 本应用不收集分析数据、广告标识符、位置信息或通讯录。
 - 麦克风仅用于检测你弹奏的音高，音频在设备本地实时处理，不会被录制、保存或上传。
 - 相机与相册仅用于导入你选择扫描的乐谱。
-- 云端识谱为可选功能，需用户主动开启。开启后，你选择扫描的乐谱图片会使用你自行提供的 API Key 发送至 Anthropic API。本应用不通过我们运营的任何服务器中转此数据。
+- 云端识谱为可选功能，需用户主动开启。开启后，你选择扫描的乐谱图片会使用你自行提供的 API Key 发送至 LLM Provider API。本应用不通过我们运营的任何服务器中转此数据。
 - 你的曲库、练习历史与设置均保存在设备本地。
 
 ---
@@ -31,26 +31,26 @@
 
 ### 3. 云端识谱（可选，需主动开启）
 
-设备本地的识别器可在无网络的情况下识别简谱。对于五线谱与复杂排版，本应用提供一条可选的云端识谱通道，使用 Anthropic 的 Claude API。
+设备本地的识别器可在无网络的情况下识别简谱。对于五线谱与复杂排版，本应用提供一条可选的云端识谱通道，使用 LLM Provider 的 API。
 
 要使用云端识谱，你需要：
 
-1. 自行从 Anthropic 获取 API Key。
+1. 自行从 LLM Provider 获取 API Key。
 2. 在「设置 -> 云端识谱」中填入该 Key。
 
 启用云端识谱后，当你触发扫描时：
 
 - 所选乐谱图片在本地缩放至约 1024 像素并以 JPEG 压缩。
-- 图片与识别提示词由你的设备直接发送至 Anthropic 的 API 端点，并使用你的 API Key 进行身份认证。
+- 图片与识别提示词由你的设备直接发送至 LLM Provider 的 API 端点，并使用你的 API Key 进行身份认证。
 - API 返回的结构化曲谱由本应用在本地解析并保存至你的曲库。
 
-本应用不运营任何中间服务器。Anthropic 对该请求的处理受其自身的服务条款与隐私政策约束。本应用无法控制 Anthropic 如何处理请求数据，详情请查阅 Anthropic 的相关文档。
+本应用不运营任何中间服务器。LLM Provider 对该请求的处理受其自身的服务条款与隐私政策约束。本应用无法控制 LLM Provider 如何处理请求数据，详情请查阅 LLM Provider 的相关文档。
 
 若未启用云端识谱（未保存 API Key），不会有任何图片离开你的设备。
 
 ### 4. API Key 的存储
 
-如果你选择启用云端识谱，你的 Anthropic API Key 会保存在设备的 iOS Keychain 中（`kSecClassGenericPassword`，访问级别 `kSecAttrAccessibleAfterFirstUnlock`，未启用同步标记）。该 Key 不会进入 iCloud Keychain 同步，不会发送至本应用的任何服务器（我们未运营任何此类服务器），仅在你触发扫描时发送至 Anthropic 的 API 端点。你可随时在「设置 -> 云端识谱 -> 移除 Key」中删除该 Key。
+如果你选择启用云端识谱，你的 LLM Provider API Key 会保存在设备的 iOS Keychain 中（`kSecClassGenericPassword`，访问级别 `kSecAttrAccessibleAfterFirstUnlock`，未启用同步标记）。该 Key 不会进入 iCloud Keychain 同步，不会发送至本应用的任何服务器（我们未运营任何此类服务器），仅在你触发扫描时发送至 LLM Provider 的 API 端点。你可随时在「设置 -> 云端识谱 -> 移除 Key」中删除该 Key。
 
 ### 5. 曲库与练习历史
 
