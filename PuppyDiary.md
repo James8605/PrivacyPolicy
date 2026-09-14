@@ -1,5 +1,7 @@
 # Puppy Diary Privacy Policy
 
+[简体中文 / Chinese version](https://github.com/James8605/PrivacyPolicy/blob/master/PuppyDiary_cn.md)
+
 Effective date: September 14, 2026. Operator: Yang Zhang. Contact: zhangyang8605@gmail.com.
 
 Puppy Diary helps you keep pet profiles, photos, care records, and reminders. This policy describes the current iPhone and iPad app.
@@ -44,20 +46,44 @@ We will update this policy when the app’s practices change. For privacy questi
 
 # 狗狗日记隐私政策
 
+[English / 英文版](https://github.com/James8605/PrivacyPolicy/blob/master/PuppyDiary.md)
+
 生效日期：2026 年 9 月 14 日。运营者：Yang Zhang。联系邮箱：zhangyang8605@gmail.com。
 
-狗狗日记用于保存宠物档案、照片、视频、日常记录和提醒。你输入的宠物信息、兽医联系方式、日记、体重及提醒保存在设备上；语言和所选档案等偏好也保存在本地。
+狗狗日记帮助你保存宠物档案、照片、养护记录和提醒。本政策适用于当前的 iPhone 和 iPad 应用。
 
-在已登录 iCloud 的受支持设备上，应用通过 Apple 的私人 CloudKit 数据库在你的设备间同步档案、照片、视频、日记和提醒。同步取决于 iCloud 账户、存储空间和网络。Apple 的服务适用其条款与隐私政策：https://www.apple.com/legal/privacy/ 。当前应用不会将宠物记录发送到开发者运营的服务器，开发者无法查看你的私人 CloudKit 数据库内容。
+## 你的记录
 
-应用通过系统照片选择器读取你主动选择的照片和视频。这些媒体会保存到记录中，并可通过 iCloud 同步。通知获准后，应用安排本地养护和生日提醒；你可以在系统设置中调整通知权限。CloudKit 也使用 Apple 的后台通知服务支持同步。
+应用保存你输入的信息，包括宠物姓名、生日、品种、养护备注、兽医联系方式、日记、体重记录、提醒，以及你选择的照片和视频。这些记录保存在你的设备上。语言和所选档案等偏好设置也保存在本地。
 
-应用不包含广告、跟踪或第三方分析 SDK，不出售记录，也不将其用于定向广告。Apple 可能根据其政策及你的设备设置处理服务和诊断信息。
+在已登录 iCloud 的受支持设备上，应用使用 Apple 的私人 CloudKit 数据库，在你的设备之间同步档案、照片、视频、日记和提醒。Apple 根据其自身的条款和[隐私政策](https://www.apple.com/legal/privacy/)运营 iCloud。同步取决于你的 iCloud 账户、可用存储空间和网络连接。
 
-养护文章包含外部网站链接，访问时适用相应网站的隐私政策。联系支持时，你主动提供的信息用于处理请求；请勿发送不必要的个人信息或私人记录。如需咨询支持邮件的处理或删除，请通过上述邮箱联系。
+当前应用不会将你的宠物记录发送到开发者运营的服务器。开发者无法访问你的私人 CloudKit 数据库中的内容。
 
-你可以把日记和提醒导出为 CSV 或文本，并通过系统分享菜单发送到自己选择的位置。导出不包含照片和视频。
+## 照片、视频和通知
 
-你可以在应用中编辑或删除日记及管理档案。删除狗狗档案会删除其关联记录，并在同步成功后同步删除 iCloud 数据；应用内无法撤销。卸载应用不代表已删除 iCloud 或备份中的数据，Apple 的存储管理和备份政策仍适用。
+应用使用 Apple 的系统照片选择器，访问你主动选择的照片和视频。所选媒体会成为已保存记录的一部分，并可通过 iCloud 同步。
 
-隐私问题请联系：zhangyang8605@gmail.com。应用的数据处理方式改变时，我们会更新本政策。
+如果你授予通知权限，应用会安排本地养护提醒和生日提醒。你可以在 iOS 系统设置中更改通知权限。CloudKit 也会使用 Apple 的后台通知服务来支持同步。
+
+## 广告和分析
+
+应用不包含广告、跟踪或第三方分析 SDK。应用不出售你的记录，也不会将其用于定向广告。Apple 可能根据其自身的政策及你的设备设置，处理服务和诊断信息。
+
+## 外部链接和支持
+
+养护文章包含外部教育网站的链接。访问这些网站时，适用相应网站的隐私政策。
+
+如果你联系支持，你主动发送的信息将用于回复你的请求。请避免提供不必要的个人信息或私人宠物记录。如需咨询支持往来邮件的处理或删除事宜，请联系上述邮箱。
+
+## 导出
+
+你可以将日记和提醒导出为 CSV 或文本，并通过系统分享菜单进行分享。你选择的接收方或目标服务将收到导出的信息。导出内容不包含照片和视频。
+
+## 管理和删除信息
+
+你可以在应用中编辑或删除日记，并管理宠物档案。删除狗狗档案会删除其关联记录，并在同步成功后，将删除操作同步到 iCloud 中的数据。此操作无法在应用中撤销。请勿将卸载应用视为删除已保存在 iCloud 或备份中的数据的方法。Apple 的 iCloud 存储管理规则和备份政策也适用。
+
+## 政策更新和联系
+
+当应用的数据处理方式发生变化时，我们会更新本政策。如有隐私问题，请联系 zhangyang8605@gmail.com。
