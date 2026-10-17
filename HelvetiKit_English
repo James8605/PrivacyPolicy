@@ -1,16 +1,18 @@
 # Privacy Policy — HelvetiKit (English)
 
-Effective date: 2025‑09‑19
+Effective date: 2026-10-17
 
 HelvetiKit respects your privacy. This policy explains what information the app processes and how.
 
 ## What We Collect
-- We do not collect, transmit, sell, or share personal data.
+- We do not collect, sell, or share personal data through our own servers.
 - The app has no accounts, no servers of its own, and no tracking SDKs.
-- All tool operations (e.g., QR, color, JSON, JWT, hashing) run on‑device.
+- Local tools (e.g., QR, color, JSON, JWT, hashing) run on‑device.
+- Network utilities run only when you request them. IP lookup connects to `ipapi.co` and, if that service is unavailable, to `api64.ipify.org`. DNS lookup connects to the DNS-over-HTTPS resolver you choose: `dns.google`, `cloudflare-dns.com`, or `dns.alidns.com`. Web Latency connects to the host you enter. Those services receive the information required to answer the request, such as your IP address or requested domain, and handle it under their own privacy policies.
+- Local network addresses shown by the IP tool are read from your device and are not transmitted.
 
 ## Permissions We Request
-- Camera (NSCameraUsageDescription): used only to scan QR codes. Camera input is processed on‑device and is not stored or sent to us.
+- Camera (NSCameraUsageDescription): used only to scan QR codes and barcodes. Camera input is processed on‑device and is not stored or sent to us.
 - Photo Library (NSPhotoLibraryUsageDescription / NSPhotoLibraryAddUsageDescription): used only to import images for QR scanning or to save QR images you generate. Access is limited to your explicit action; images are not uploaded.
 
 ## Purchases
@@ -21,7 +23,7 @@ HelvetiKit respects your privacy. This policy explains what information the app 
 - If Apple or your device collects crash logs, they are managed by Apple according to your system settings. We do not receive personal data from these logs.
 
 ## Data Retention
-- Input you provide (text, images) is processed in memory or stored locally only when you explicitly save or copy it. The app does not upload your content.
+- Input for local tools (text and images) is processed in memory. While the app is running, your most recent input in each tool is kept in memory so you can switch between tools; it is never written to disk and is discarded when the app quits. Content is stored only when you explicitly save or copy it. Network-tool requests are transmitted only to the service or host described above.
 
 ## Children’s Privacy
 - HelvetiKit is a general‑purpose utility app and does not target children. We do not collect personal data from any users.
