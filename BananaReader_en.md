@@ -1,66 +1,33 @@
 # Privacy Policy
 
-**Last Updated: December 10, 2025**
+Last updated: October 17, 2026
 
-## Introduction
+## About the app
 
-Banana Reader ("we", "our", or "us") respects your privacy and is committed to protecting your personal data. This privacy policy explains how we handle information when you use our text reader application.
+SimplyRead (also called BananaReader or 香蕉听书) reads and organizes your books and text files. The developer does not collect analytics, advertising identifiers, reading history, or the contents of your library through the app. No app account is required.
 
-## Information We Collect
+## Reading and local storage
 
-### Information You Provide
-- **Text Files**: Files you import into the app are stored locally on your device only. We do not have access to, collect, or transmit your text files.
+Imported books, reading progress, bookmarks, and preferences are stored on your device. Text-to-speech uses Apple's system speech features. Your imported book contents are not sent to a developer server for reading or speech playback.
 
-### Automatically Collected Information
-- **No Analytics**: We do not collect analytics, tracking data, or usage statistics.
-- **No Advertising Data**: We do not collect data for advertising purposes.
+## Optional online features
 
-## How We Use Information
+If you use online book discovery, the app sends your search terms to the selected catalog or book provider. Downloading a book or opening a provider's website connects to that provider. These services receive the network information needed to handle the request, such as your IP address, and their own privacy policies apply. The app does not upload your existing library to these providers to perform a search.
 
-- All text files and reading progress are stored locally on your device
-- Your data is never transmitted to our servers or any third parties
-- Reading preferences and settings are stored locally on your device
+If you choose iCloud Drive backup or restore, the selected library and app settings are copied through Apple's iCloud service under your Apple account. The developer cannot access your iCloud storage. Apple and your iCloud settings control that storage; removing the app does not automatically remove backups you saved in iCloud Drive.
 
-## In-App Purchases
+## Purchases
 
-- Purchase transactions are processed by Apple through the App Store
-- We do not collect or store your payment information
-- Apple's privacy policy governs payment processing
+Apple processes purchases and restores through the App Store. The app uses StoreKit to verify your Pro entitlement. The developer does not receive your payment card information. Apple's terms and privacy policy apply to purchase processing.
 
-## Data Sharing
+## Your choices
 
-We do not share, sell, or transmit any of your data to third parties. All app functionality operates entirely on your device.
+You can delete books, change preferences, and manage backups in the app or in Files/iCloud Drive. You can use local reading without online discovery. No third-party advertising or analytics SDK is used, and the developer does not sell your personal data.
 
-## Children's Privacy
+## Support and policy updates
 
-Our app does not knowingly collect personal information from children under 13. The app is designed to be safe for users of all ages.
+If you email support, the developer receives the address and information you choose to include and uses it to respond. Avoid including private book contents or other information that is unnecessary for your request.
 
-## Your Rights
+Contact: [zhangyang8605@gmail.com](mailto:zhangyang8605@gmail.com)
 
-Since all data is stored locally on your device:
-- You have full control over your data
-- You can delete all app data by deleting the app from your device
-- No data remains on external servers after app deletion
-
-## Changes to This Policy
-
-We may update this privacy policy from time to time. We will notify you of any changes by updating the "Last Updated" date.
-
-## Contact Us
-
-If you have questions about this privacy policy, please contact us at:
-- Email: [Your Contact Email]
-
-## Data Security
-
-- All data is stored locally on your device using iOS security features
-- We recommend using device-level security (passcode/Face ID) to protect your data
-- No data transmission means no data breach risk from our services
-
-## Third-Party Services
-
-The app uses the following Apple services:
-- **StoreKit**: For in-app purchase processing (governed by Apple's Privacy Policy)
-- **AVFoundation**: For text-to-speech functionality (processes audio locally on device)
-
-No third-party analytics, advertising, or tracking services are used.
+Changes to this policy will be reflected in the date above.
