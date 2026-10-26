@@ -1,52 +1,46 @@
-# Privacy Policy / 隐私政策
+# Privacy Policy for Body Rhythm
 
-**Effective Date / 生效日期: 2026-03-10**
+Effective date: October 26, 2026
 
----
+Body Rhythm (Rhythm) is an interval training timer for iPhone, iPad, and Apple Watch. This policy covers the app's local workout features, optional Apple services, and advertising in the free version.
 
-## English
+## Workout data and device storage
 
-### Privacy Policy for Rhythm
+Activities, schedules, workout history, and preferences are stored on your devices. The app can synchronize activities and workout history between a paired iPhone and Apple Watch using Apple's WatchConnectivity framework. Rhythm does not operate a server to receive your workout records.
 
-Rhythm is an interval training timer app. Your privacy is important to us. This policy explains how we handle your information.
+If you grant Health access, the Apple Watch app can save workout information to Apple Health. You control this permission in Apple's settings. The app does not pass your Health records or workout definitions to the advertising SDK.
 
-### Information Collection and Use
+Deleting the app removes its local app data. Copies on another device and records saved in Apple Health may remain and must be managed separately.
 
-Rhythm does **not** collect, store, or transmit any personal data to external servers. All data is stored locally on your device.
+## Advertising and data collected by Google
 
-The app stores the following data locally:
+The free version uses the Google Mobile Ads SDK (AdMob) to request and display banner, interstitial, and optional rewarded ads. These services make network requests and may collect information on Google's servers. The app uses the default Google Mobile Ads integration without additional mediation partners.
 
-- **Activities**: Custom interval training configurations you create (name, duration, rounds)
-- **Schedules**: Recurring schedule settings for your activities
-- **History**: Records of completed workouts (date, duration, rounds completed)
-- **Preferences**: App theme and language settings
+The SDK's privacy manifest declares these data types:
+- Approximate location, including location estimated from an IP address.
+- Device identifiers, including app- or publisher-scoped identifiers.
+- Advertising data, such as ads displayed and interactions with ads.
+- Product interaction data, such as app launches and interactions.
+- Crash data, performance data, and other diagnostic data.
 
-### Data Sharing
+The SDK declares advertising and analytics purposes for these data types, with crash data used for analytics. Approximate location, device identifiers, advertising data, and product interactions may be linked to a device or user identity. The SDK declares crash, performance, and other diagnostic data as not linked.
 
-We do **not** share any data with third parties. Rhythm does not use any third-party analytics, advertising, or tracking services.
+Rhythm does not request App Tracking Transparency authorization or access to the advertising identifier (IDFA). Google documents that IDFA is not sent without authorization. App- and publisher-scoped identifiers and other data listed above may still be collected; absence of an IDFA prompt does not mean that no data is collected.
 
-### Network Access
+See [Google's privacy policy](https://policies.google.com/privacy) and [Google Mobile Ads data disclosures](https://developers.google.com/admob/ios/privacy/data-disclosure) for Google's processing and retention practices.
 
-Rhythm does **not** make any network requests. The app functions entirely offline. The only communication occurs between your iPhone and Apple Watch via Apple's WatchConnectivity framework for syncing activity data between paired devices.
+## Purchases and ad-free access
 
-### Third-Party Services
+Rhythm Pro is an optional one-time purchase handled by Apple's StoreKit. Apple processes payment and account information; Rhythm does not receive your payment card details. The app checks purchase entitlements to enable Pro and restore purchases.
 
-Rhythm does **not** integrate any third-party SDKs, services, or frameworks beyond Apple's native system frameworks.
+While Pro access is active, the app does not initialize the ads SDK or request ads. If Pro access later ends, such as after a refund, ads can resume. Pro does not erase data already retained by Apple or Google.
 
-### Data Storage and Security
+## Your choices and contact
 
-All your data is stored locally on your device in the app's sandboxed storage. We do not have access to your data. If you delete the app, all locally stored data will be removed.
+You can manage Health permissions and app privacy permissions in Apple's settings. You can use Rhythm Pro for ad-free access. Deleting local app data does not automatically delete information retained by Apple or Google under their policies.
 
-### Children's Privacy
+If you contact support, we receive the information you choose to send so that we can respond. For privacy questions or requests, contact zhangyang8605@gmail.com. Please avoid sending Health records or other sensitive information unless needed for your request.
 
-Rhythm does not collect any personal information from anyone, including children under the age of 13.
+## Policy updates
 
-### Changes to This Privacy Policy
-
-We may update this privacy policy from time to time. Any changes will be posted within the app or on this page.
-
-### Contact Us
-
-If you have any questions about this privacy policy, please contact us at:
-
-**Email**: zhangyang8605@gmail.com
+Changes to this policy will be posted on this page with an updated effective date.
