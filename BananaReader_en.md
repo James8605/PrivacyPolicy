@@ -1,10 +1,10 @@
 # Privacy Policy
 
-Last updated: October 17, 2026
+Last updated: November 24, 2026
 
 ## About the app
 
-SimplyRead (also called BananaReader or 香蕉听书) reads and organizes your books and text files. The developer does not collect analytics, advertising identifiers, reading history, or the contents of your library through the app. No app account is required.
+SimplyRead (also called BananaReader or 香蕉听书) reads and organizes your books and text files. The app keeps your reading history and library contents on your device, subject to the backup options below. No app account is required.
 
 ## Reading and local storage
 
@@ -16,13 +16,21 @@ If you use online book discovery, the app sends your search terms to the selecte
 
 If you choose iCloud Drive backup or restore, the selected library and app settings are copied through Apple's iCloud service under your Apple account. The developer cannot access your iCloud storage. Apple and your iCloud settings control that storage; removing the app does not automatically remove backups you saved in iCloud Drive.
 
+## Advertising and consent
+
+Starting with version 6.5.0, the free version can show a banner on the Library screen through Google AdMob. Pro users do not see ads. The app requests non-personalized ads and does not request access to Apple's advertising identifier through App Tracking Transparency.
+
+Google Mobile Ads and Google's User Messaging Platform process information to serve and measure ads, manage consent, prevent invalid activity, and diagnose problems. This may include IP address and approximate location inferred from it, device or app identifiers, app and ad interactions, ad delivery and performance data, and crash or diagnostic information. The app does not share book contents, reading history, or search terms with these SDKs. See [Google's partner-site privacy information](https://policies.google.com/technologies/partner-sites) for how Google handles this information.
+
+Where required, Google's consent form appears before ads are requested. If the form offers ongoing choices, you can revisit them under **Settings → Help → Ad Privacy Choices**.
+
 ## Purchases
 
 Apple processes purchases and restores through the App Store. The app uses StoreKit to verify your Pro entitlement. The developer does not receive your payment card information. Apple's terms and privacy policy apply to purchase processing.
 
 ## Your choices
 
-You can delete books, change preferences, and manage backups in the app or in Files/iCloud Drive. You can use local reading without online discovery. No third-party advertising or analytics SDK is used, and the developer does not sell your personal data.
+You can delete books, change preferences, and manage backups in the app or in Files/iCloud Drive. You can use local reading without online discovery.
 
 ## Support and policy updates
 
