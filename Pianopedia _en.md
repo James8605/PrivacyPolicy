@@ -2,7 +2,7 @@
 
 **App:** Pianopedia 
 **Effective date:** 2026-05-09
-**Last updated:** 2026-05-09
+**Last updated:** 2026-11-25
 
 This policy describes how Pianopedia (the "app") handles your data. Pianopedia is designed to work without an account and to keep your data on your device by default. This policy applies to the iOS app distributed through the App Store.
 
@@ -11,7 +11,7 @@ This policy describes how Pianopedia (the "app") handles your data. Pianopedia i
 ## Summary
 
 - Pianopedia does not require sign-up or an account.
-- The app does not collect analytics, advertising identifiers, location, or contacts.
+- Starting with Piano Lab 5.4.0, the free Library can show one non-personalized banner. Pro users do not see ads.
 - The microphone is used only to detect the pitch you play. Audio is processed on the device in real time and is not recorded, saved, or uploaded.
 - The camera and photo library are used only to import sheet music you choose to scan.
 - Cloud sheet recognition is opt-in. When enabled, the photo of the sheet you choose to scan is sent to the LLM Provider API using an API key that you provide. Pianopedia does not relay this data through any server we operate.
@@ -60,13 +60,19 @@ If you have iCloud Backup enabled for the device, the operating system may inclu
 
 ### 6. Network requests
 
-Pianopedia makes outbound network requests only when you take an action that requires them:
+Pianopedia uses the network for the following features:
 
 - **Discover / Search:** searching the in-app catalog issues HTTP requests to public score libraries (for example, Mutopia Project and piano-midi.de) and to any custom catalog URL you paste in Settings. Requests contain only your search query and standard HTTP headers.
 - **Cloud sheet recognition:** described above. Requires your API key and only fires when you scan a sheet with the cloud path enabled.
 - **Score downloads:** when you import a piece from a search result, the corresponding MIDI / MusicXML / JSON file is fetched from the public URL listed in the result.
 
-The app does not contact any analytics, advertising, or telemetry endpoint.
+### 7. Advertising and consent
+
+Starting with Piano Lab 5.4.0, the free Library can show a banner through Google AdMob. The app requests non-personalized, general-audience ads with restricted data processing enabled. The app does not request Apple tracking permission or access to IDFA.
+
+Google Mobile Ads and Google’s User Messaging Platform may process IP address and approximate location inferred from it, device or app identifiers, interactions with the app and ads, ad delivery and performance data, and crash or diagnostic information. This supports ad delivery, measurement, consent management, prevention of invalid activity, and troubleshooting. Piano Lab does not share microphone audio, scanned scores, API keys, or practice history with the advertising SDKs. See [Google’s partner-site privacy information](https://policies.google.com/technologies/partner-sites).
+
+Where required, the app presents Google’s consent form before requesting an ad. If ongoing choices are available, you can find them under **Settings → Help → Ad Privacy Choices**.
 
 ---
 
@@ -85,15 +91,14 @@ You can revoke any of these permissions at any time in **iOS Settings -> Pianope
 ## Data we do not collect
 
 - We do not collect or store user accounts, names, email addresses, or phone numbers.
-- We do not collect device identifiers for advertising (IDFA), location data, contacts, calendars, or health data.
-- We do not include third-party analytics, crash reporting, or advertising SDKs.
+- The app does not request IDFA or access to contacts, calendars, or health data. See **Advertising and consent** for information handled by Google’s SDKs.
 - We do not track you across apps or websites.
 
 ---
 
 ## Children
 
-Pianopedia is suitable for general audiences, including children, and does not collect personal information from anyone, including children under 13. The microphone is used only for on-device pitch detection during practice sessions, and audio is never recorded or transmitted.
+Piano Lab is intended for general-audience piano learners, including families. Ads are limited to Google’s general-audience content rating. The microphone is used only for on-device pitch detection during practice sessions, and audio is never recorded or transmitted.
 
 If you (or your child) choose to enable cloud sheet recognition, please note that requests to the LLM Provider API are governed by LLM Provider's terms; we recommend a parent or guardian configures and manages the API key.
 
