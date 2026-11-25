@@ -2,7 +2,7 @@
 
 [简体中文 / Chinese version](https://github.com/James8605/PrivacyPolicy/blob/master/PuppyDiary_cn.md)
 
-Effective date: September 14, 2026. Operator: Yang Zhang. Contact: zhangyang8605@gmail.com.
+Effective date: September 14, 2026. Last updated: November 25, 2026. Operator: Yang Zhang. Contact: zhangyang8605@gmail.com.
 
 Puppy Diary helps you keep pet profiles, photos, care records, and reminders. This policy describes the current iPhone and iPad app.
 
@@ -22,7 +22,9 @@ If you grant notification permission, the app schedules local care and birthday 
 
 ## Advertising and analytics
 
-The app contains no advertising, tracking, or third-party analytics SDK. It does not sell your records or use them for targeted advertising. Apple may process service and diagnostic information under its own policies and your device settings.
+Starting in version 1.4.0, the free plan can show a Google AdMob banner on the Today screen. Puppy Diary Plus and legacy paid-download access include an ad-free Today screen. Ads are non-personalized, with Google restricted data processing enabled and Apple's tracking permission off. Your pet profiles, diary entries, reminders, and media stay separate from the advertising SDK.
+
+Google Mobile Ads and Google's User Messaging Platform may process approximate location inferred from IP, device identifiers, app interactions, ad activity, and diagnostic data to serve and measure ads, manage consent, and protect against abuse. When local rules require it, Google presents a consent message before the app requests ads. Where available, you can update your choices in Settings under Support and privacy. See [how Google uses information from apps that use its services](https://policies.google.com/technologies/partner-sites).
 
 ## External links and support
 
@@ -48,7 +50,7 @@ We will update this policy when the app’s practices change. For privacy questi
 
 [English / 英文版](https://github.com/James8605/PrivacyPolicy/blob/master/PuppyDiary.md)
 
-生效日期：2026 年 9 月 14 日。运营者：Yang Zhang。联系邮箱：zhangyang8605@gmail.com。
+生效日期：2026 年 9 月 14 日。最后更新：2026 年 11 月 25 日。运营者：Yang Zhang。联系邮箱：zhangyang8605@gmail.com。
 
 狗狗日记帮助你保存宠物档案、照片、养护记录和提醒。本政策适用于当前的 iPhone 和 iPad 应用。
 
@@ -68,7 +70,9 @@ We will update this policy when the app’s practices change. For privacy questi
 
 ## 广告和分析
 
-应用不包含广告、跟踪或第三方分析 SDK。应用不出售你的记录，也不会将其用于定向广告。Apple 可能根据其自身的政策及你的设备设置，处理服务和诊断信息。
+从 1.4.0 版起，免费版可在「今天」页面显示 Google AdMob 横幅广告。狗狗日记 Plus 和早期付费购买用户可使用免广告的「今天」页面。应用仅请求非个性化广告，启用 Google 的限制数据处理，并关闭 Apple 跟踪权限。宠物档案、日记、提醒及媒体与广告 SDK 分开处理。
+
+Google 移动广告和 Google 用户消息平台可能处理通过 IP 推断的大致位置、设备标识符、应用互动、广告活动及诊断数据，用于投放和衡量广告、管理同意及防止滥用。在适用地区，应用会在请求广告前显示 Google 同意提示。若提供相关选项，你可在「设置 → 支持与隐私」中调整选择。请参阅 [Google 如何使用来自其合作应用的信息](https://policies.google.com/technologies/partner-sites?hl=zh-CN)。
 
 ## 外部链接和支持
 
